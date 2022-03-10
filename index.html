@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id='area'>
+
+        <div id='display'>
+            <!--MAXIMUM CHARS: 20-->
+            <p id="displayArea"></p>
+        </div>
+
+        <div id='buttons'>
+
+            <div class="blank">
+
+            </div>
+            <div class="blank">
+
+            </div>
+            <input type="button" class="button" id='eraseAll' value="C" onclick="eraseAll()">
+
+            </input>
+            <input type="button" class="button" id='eraseLast' value="&#x2B05" onclick="eraseLast()">
+
+            </input>
+            <input type="button" name='button' class="button" id='one' value="1" onclick="insertNumber1()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='two' value="2" onclick="insertNumber2()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='three' value="3" onclick="insertNumber3()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='division' value="÷" onclick="division()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='four' value="4" onclick="insertNumber4()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='five' value="5" onclick="insertNumber5()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='six' value="6" onclick="insertNumber6()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='multiply' value="x" onclick="multiply()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='seven' value="7" onclick="insertNumber7()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='eight' value="8" onclick="insertNumber8()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='nine' value="9" onclick="insertNumber9()">
+
+            </input>
+            <input type="button" name='button'  class="button" id='sum' value="+" onclick="sum()">
+
+            </input>
+            <input type="button" class="button" id='dot' value="." onclick="insertDot()">
+
+            </input>
+            <input type="button" class="button" id='zero' value="0" onclick="insertNumber0()">
+
+            </input>
+            <input type="button" class="button" id='result' value="=" onclick="showResult()">
+
+            </input>
+            <input type="button" class="button" id='subtraction' value="-" onclick="subtraction()">
+
+            </input>
+
+        </div>
+    </div>
+</body>
+<script src="./assets/operations.js"></script>
+<script src="./assets/script.js"></script>
+</html>
